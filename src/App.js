@@ -7,6 +7,10 @@ import ToggleButton from "./ToggleButton";
 import ArrayClick from "./ArrayClick";
 import Counter from "./Counter";
 import Palindrm from "./Palindrm";
+import ReverseAString from "./JavascriptCod/ReverseAString";
+import LargestNUM from "./JavascriptCod/LargestNUM";
+import OccuranceString from "./JavascriptCod/OccuranceString"
+import IsAnagram from "./JavascriptCod/IsAnagram";
 
 export default function App() {
   const [state, setState] = useState("");
@@ -28,7 +32,11 @@ export default function App() {
       {/* <ToggleButton /> */}
       {/* <ArrayClick /> */}
       {/* <Counter /> */}
-      <Palindrm />
+      {/* <Palindrm /> */}
+      {/* <ReverseAString /> */}
+      {/* <OccuranceString /> */}
+      {/* <LargestNUM /> */}
+      <IsAnagram />
     </div>
   );
 }
