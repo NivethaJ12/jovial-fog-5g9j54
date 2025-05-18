@@ -5,6 +5,8 @@ import TemplateLiterals from "./TemplateLiterals";
 import TodoList from "./TodoList";
 import ToggleButton from "./ToggleButton";
 import ArrayClick from "./ArrayClick";
+import Counter from "./Counter";
+import Palindrm from "./Palindrm";
 
 export default function App() {
   const [state, setState] = useState("");
@@ -24,7 +26,9 @@ export default function App() {
       <TemplateLiterals /> */}
       {/* <TodoList /> */}
       {/* <ToggleButton /> */}
-      <ArrayClick />
+      {/* <ArrayClick /> */}
+      {/* <Counter /> */}
+      <Palindrm />
     </div>
   );
 }

@@ -19,7 +19,7 @@ const ArrayClick = () => {
       {/* to access a specific element in the array, you use square brackets [] with the index number inside.
          array[0] → '10' (the first element)
          array[1] → '20' (the second element) */}
-      <p>{array[arr]}</p> 
+      <p>{array[arr]}</p>
     </>
   );
 };
