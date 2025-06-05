@@ -27,6 +27,10 @@ const Palindrm = () => {
     }
   }
   console.log(palin("madams"));
+  //-----------------------------------------------------
+
+  const isPalindrome = (str) => str === str.split('').reverse().join('');
+
 
   return <></>;
 };
